@@ -1,0 +1,11 @@
+---
+---
+
+@import "main";
+
+:root {
+  --sidebar-bg: #8FA3F0;
+  --sidebar-muted-color: #EEF1FC;
+  --link-color: #8FA3F0;
+  --btn-backtotop-color: #8FA3F0;
+}
