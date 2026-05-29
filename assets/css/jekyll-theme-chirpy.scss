@@ -14,3 +14,20 @@
   --sidebar-btn-bg: rgba(255, 255, 255, 0.2);
   --sidebar-btn-color: #ffffff;
 }
+
+
+#sidebar ul li {
+  list-style: none !important;
+}
+
+#sidebar ul {
+  padding-left: 0 !important;
+}
+
+#sidebar .site-title {
+  font-size: 2.2rem !important;
+}
+
+#sidebar .site-subtitle {
+  font-size: 1.05rem !important;
+}
