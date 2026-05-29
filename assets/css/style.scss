@@ -3,9 +3,14 @@
 
 @import "main";
 
-:root {
-  --sidebar-bg: #8FA3F0;
-  --sidebar-muted-color: #EEF1FC;
-  --link-color: #8FA3F0;
-  --btn-backtotop-color: #8FA3F0;
+#sidebar {
+  background-color: #8FA3F0 !important;
+}
+
+#sidebar a, #sidebar span, #sidebar p, #sidebar .site-title, #sidebar .site-subtitle {
+  color: #ffffff !important;
+}
+
+a {
+  color: #8FA3F0 !important;
 }
