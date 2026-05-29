@@ -3,14 +3,12 @@
 
 @import "main";
 
-#sidebar {
-  background-color: #8FA3F0 !important;
-}
-
-#sidebar a, #sidebar span, #sidebar p, #sidebar .site-title, #sidebar .site-subtitle {
-  color: #ffffff !important;
-}
-
-a {
-  color: #8FA3F0 !important;
+html[data-mode=light], html:not([data-mode]) {
+  --sidebar-bg: #8FA3F0 !important;
+  --sidebar-muted-color: #ffffff !important;
+  --sidebar-active-color: #ffffff !important;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.2) !important;
+  --site-title-color: #ffffff !important;
+  --site-subtitle-color: #EEF1FC !important;
+  --link-color: #5570C9 !important;
 }
